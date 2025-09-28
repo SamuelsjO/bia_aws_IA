@@ -18,7 +18,6 @@
         "DATABASE_URI": "postgresql://postgres:postgres@localhost:5433/bia"
       }
     },
-    "mcpServers": {
     "awslabs.ecs-mcp-server": {
       "command": "uvx",
       "args": ["--from", "awslabs-ecs-mcp-server", "ecs-mcp-server"],
